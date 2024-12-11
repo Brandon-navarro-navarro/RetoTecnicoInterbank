@@ -1,0 +1,47 @@
+services:
+  microservicio-cliente:
+    image: microservicio-cliente
+    build:
+      context: ./microservicio-cliente
+    ports:
+      - "8081:8081"
+    networks:
+      - microservices-network
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SERVER_PORT=8081
+
+
+  microservicio-productos:
+    image: microservicio-productos
+    build:
+      context: ./microservicio-productos
+    ports:
+      - "8082:8082"
+    networks:
+      - microservices-network
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SERVER_PORT=8082
+    
+
+  servicio-bff:
+    image: servicio-bff
+    build:
+      context: ./servicio-bff
+    ports:
+      - "8083:8083"
+    networks:
+      - microservices-network
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SERVER_PORT=8083
+      - CLIENTE_API_URL=http://microservicio-cliente:8081/api
+      - PRODUCTOS_API_URL=http://microservicio-productos:8082/api
+    depends_on:
+      - microservicio-cliente
+      - microservicio-productos
+
+networks:
+ microservices-network:
+   driver: bridge  

@@ -1,0 +1,1164 @@
+2024-12-10 21:56:46 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 31900 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 21:56:46 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 21:56:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 21:56:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 21:56:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 21:56:47 - Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2024-12-10 21:56:48 - Tomcat initialized with port 8082 (http)
+2024-12-10 21:56:48 - Starting service [Tomcat]
+2024-12-10 21:56:48 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 21:56:48 - Initializing Spring embedded WebApplicationContext
+2024-12-10 21:56:48 - Root WebApplicationContext: initialization completed in 2228 ms
+2024-12-10 21:56:48 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 21:56:49 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 21:56:49 - HHH000026: Second-level cache disabled
+2024-12-10 21:56:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 21:56:49 - HikariPool-1 - Starting...
+2024-12-10 21:56:50 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 19ce64c4-8f7c-4fb6-a144-e9a621d2928f
+2024-12-10 21:56:50 - HikariPool-1 - Start completed.
+2024-12-10 21:56:50 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 21:56:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 21:56:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 21:56:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 21:56:52 - LiveReload server is running on port 35729
+2024-12-10 21:56:52 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 21:56:52 - Started MicroservicioProductosApplication in 7.154 seconds (process running for 7.705)
+2024-12-10 21:57:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 21:57:04 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 21:57:04 - Completed initialization in 1 ms
+2024-12-10 21:58:19 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 49688 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 21:58:19 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 21:58:19 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 21:58:19 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 21:58:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 21:58:20 - Finished Spring Data repository scanning in 140 ms. Found 1 JPA repository interface.
+2024-12-10 21:58:21 - Tomcat initialized with port 8082 (http)
+2024-12-10 21:58:21 - Starting service [Tomcat]
+2024-12-10 21:58:21 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 21:58:21 - Initializing Spring embedded WebApplicationContext
+2024-12-10 21:58:21 - Root WebApplicationContext: initialization completed in 2043 ms
+2024-12-10 21:58:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 21:58:22 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 21:58:22 - HHH000026: Second-level cache disabled
+2024-12-10 21:58:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 21:58:22 - HikariPool-1 - Starting...
+2024-12-10 21:58:23 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: d278a32e-0eb2-44cd-90dd-b0cea11dda7e
+2024-12-10 21:58:23 - HikariPool-1 - Start completed.
+2024-12-10 21:58:23 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 21:58:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 21:58:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 21:58:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 21:58:25 - LiveReload server is running on port 35729
+2024-12-10 21:58:25 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 21:58:25 - Started MicroservicioProductosApplication in 6.647 seconds (process running for 7.208)
+2024-12-10 21:58:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 21:58:31 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 21:58:31 - Completed initialization in 0 ms
+2024-12-10 22:00:38 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 22:00:38 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:00:38 - Graceful shutdown complete
+2024-12-10 22:00:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:00:38 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:00:38 - HikariPool-1 - Shutdown completed.
+2024-12-10T22:00:38.250-05:00 ERROR 49688 --- [microservicio-productos] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.FileAppender[FILE] - 'File' option has the same value "logs/application.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at brandonnavarro.microservicio_productos.MicroservicioProductosApplication.main(MicroservicioProductosApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.FileAppender[FILE] - 'File' option has the same value "logs/application.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:291)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:269)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:197)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 24 common frames omitted
+
+2024-12-10T22:00:51.789-05:00 ERROR 37516 --- [microservicio-productos] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.FileAppender[FILE] - 'File' option has the same value "logs/application.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at brandonnavarro.microservicio_productos.MicroservicioProductosApplication.main(MicroservicioProductosApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.FileAppender[FILE] - 'File' option has the same value "logs/application.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.FileAppender[FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:291)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:269)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:197)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 24 common frames omitted
+
+2024-12-10 22:01:37 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 10056 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:01:37 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:01:37 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:01:37 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:01:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:01:38 - Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interface.
+2024-12-10 22:01:39 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:01:39 - Starting service [Tomcat]
+2024-12-10 22:01:39 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:01:39 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:01:39 - Root WebApplicationContext: initialization completed in 2212 ms
+2024-12-10 22:01:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:01:40 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:01:40 - HHH000026: Second-level cache disabled
+2024-12-10 22:01:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:01:40 - HikariPool-1 - Starting...
+2024-12-10 22:01:40 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a882630c-b19b-4de0-8627-eaa840d4cc31
+2024-12-10 22:01:40 - HikariPool-1 - Start completed.
+2024-12-10 22:01:40 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:01:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:01:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:01:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:01:43 - LiveReload server is running on port 35729
+2024-12-10 22:01:43 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:01:43 - Started MicroservicioProductosApplication in 6.833 seconds (process running for 7.348)
+2024-12-10 22:01:46 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:01:46 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:01:46 - Completed initialization in 0 ms
+2024-12-10 22:02:28 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 22:02:28 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:02:28 - Graceful shutdown complete
+2024-12-10 22:02:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:02:28 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:02:28 - HikariPool-1 - Shutdown completed.
+2024-12-10 22:02:28 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 10056 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:02:28 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:02:30 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 39104 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:02:30 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:02:31 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:02:31 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:02:31 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:02:32 - Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interface.
+2024-12-10 22:02:32 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:02:33 - Starting service [Tomcat]
+2024-12-10 22:02:33 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:02:33 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:02:33 - Root WebApplicationContext: initialization completed in 2069 ms
+2024-12-10 22:02:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:02:33 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:02:33 - HHH000026: Second-level cache disabled
+2024-12-10 22:02:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:02:34 - HikariPool-1 - Starting...
+2024-12-10 22:02:34 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 5a088bae-4fed-4098-b34b-2f08bec7d44a
+2024-12-10 22:02:34 - HikariPool-1 - Start completed.
+2024-12-10 22:02:34 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:02:35 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:02:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:02:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:02:37 - LiveReload server is running on port 35729
+2024-12-10 22:02:37 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:02:37 - Started MicroservicioProductosApplication in 6.701 seconds (process running for 7.21)
+2024-12-10 22:02:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:02:40 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:02:40 - Completed initialization in 1 ms
+2024-12-10 22:03:11 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 37504 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:03:11 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:03:11 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:03:11 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:03:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:03:12 - Finished Spring Data repository scanning in 138 ms. Found 1 JPA repository interface.
+2024-12-10 22:03:13 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:03:13 - Starting service [Tomcat]
+2024-12-10 22:03:13 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:03:13 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:03:13 - Root WebApplicationContext: initialization completed in 2247 ms
+2024-12-10 22:03:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:03:14 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:03:14 - HHH000026: Second-level cache disabled
+2024-12-10 22:03:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:03:14 - HikariPool-1 - Starting...
+2024-12-10 22:03:14 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a0542b58-6898-4521-bd53-ddd9efa08fad
+2024-12-10 22:03:14 - HikariPool-1 - Start completed.
+2024-12-10 22:03:14 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:03:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:03:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:03:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:03:17 - LiveReload server is running on port 35729
+2024-12-10 22:03:17 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:03:17 - Started MicroservicioProductosApplication in 6.917 seconds (process running for 7.436)
+2024-12-10 22:03:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:03:20 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:03:20 - Completed initialization in 1 ms
+2024-12-10 22:04:46 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 22:04:46 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:04:46 - Graceful shutdown complete
+2024-12-10 22:04:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:04:46 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:04:46 - HikariPool-1 - Shutdown completed.
+2024-12-10 22:04:46 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 37504 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:04:46 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:04:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:04:46 - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-12-10 22:04:46 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:04:46 - Starting service [Tomcat]
+2024-12-10 22:04:46 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:04:46 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:04:46 - Root WebApplicationContext: initialization completed in 525 ms
+2024-12-10 22:04:46 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:04:46 - HHH000026: Second-level cache disabled
+2024-12-10 22:04:46 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:04:46 - HikariPool-2 - Starting...
+2024-12-10 22:04:46 - HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: b7ccf677-ff5f-4167-9125-f3459513bfc2
+2024-12-10 22:04:46 - HikariPool-2 - Start completed.
+2024-12-10 22:04:46 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:04:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:04:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:04:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:04:47 - LiveReload server is running on port 35729
+2024-12-10 22:04:47 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:04:47 - Started MicroservicioProductosApplication in 1.124 seconds (process running for 97.282)
+2024-12-10 22:04:47 - Condition evaluation unchanged
+2024-12-10 22:04:52 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:04:52 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:04:52 - Completed initialization in 0 ms
+2024-12-10 22:06:00 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 38752 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:06:00 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:06:00 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:06:00 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:06:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:06:01 - Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interface.
+2024-12-10 22:06:02 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:06:02 - Starting service [Tomcat]
+2024-12-10 22:06:02 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:06:02 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:06:02 - Root WebApplicationContext: initialization completed in 2258 ms
+2024-12-10 22:06:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:06:03 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:06:03 - HHH000026: Second-level cache disabled
+2024-12-10 22:06:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:06:03 - HikariPool-1 - Starting...
+2024-12-10 22:06:03 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a3f37a18-4398-461c-958f-5073fe7262e4
+2024-12-10 22:06:03 - HikariPool-1 - Start completed.
+2024-12-10 22:06:03 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:06:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:06:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:06:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:06:06 - LiveReload server is running on port 35729
+2024-12-10 22:06:06 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:06:06 - Started MicroservicioProductosApplication in 7.101 seconds (process running for 7.663)
+2024-12-10 22:06:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:06:20 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:06:20 - Completed initialization in 1 ms
+2024-12-10 22:06:59 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 22:06:59 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:06:59 - Graceful shutdown complete
+2024-12-10 22:06:59 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:06:59 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:06:59 - HikariPool-1 - Shutdown completed.
+2024-12-10 22:06:59 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 38752 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:06:59 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:07:02 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 44884 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:07:02 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:07:02 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:07:02 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:07:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:07:03 - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2024-12-10 22:07:04 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:07:04 - Starting service [Tomcat]
+2024-12-10 22:07:04 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:07:04 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:07:04 - Root WebApplicationContext: initialization completed in 2324 ms
+2024-12-10 22:07:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:07:05 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:07:05 - HHH000026: Second-level cache disabled
+2024-12-10 22:07:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:07:05 - HikariPool-1 - Starting...
+2024-12-10 22:07:06 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: d81a1d7e-75f9-485c-89ec-b832374cb128
+2024-12-10 22:07:06 - HikariPool-1 - Start completed.
+2024-12-10 22:07:06 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:07:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:07:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:07:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:07:08 - LiveReload server is running on port 35729
+2024-12-10 22:07:08 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:07:08 - Started MicroservicioProductosApplication in 7.226 seconds (process running for 7.749)
+2024-12-10 22:07:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:07:12 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:07:12 - Completed initialization in 1 ms
+2024-12-10 22:09:33 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 22:09:33 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:09:33 - Graceful shutdown complete
+2024-12-10 22:09:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:09:33 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:09:33 - HikariPool-1 - Shutdown completed.
+2024-12-10 22:09:33 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 44884 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:09:33 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:09:33 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:09:33 - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-12-10 22:09:33 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:09:33 - Starting service [Tomcat]
+2024-12-10 22:09:33 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:09:34 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:09:34 - Root WebApplicationContext: initialization completed in 384 ms
+2024-12-10 22:09:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:09:34 - HHH000026: Second-level cache disabled
+2024-12-10 22:09:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:09:34 - HikariPool-2 - Starting...
+2024-12-10 22:09:34 - HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: e6be2458-c892-46e6-9298-6a08e909b908
+2024-12-10 22:09:34 - HikariPool-2 - Start completed.
+2024-12-10 22:09:34 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:09:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:09:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:09:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:09:34 - LiveReload server is running on port 35729
+2024-12-10 22:09:34 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:09:34 - Started MicroservicioProductosApplication in 0.956 seconds (process running for 153.351)
+2024-12-10 22:09:34 - Condition evaluation unchanged
+2024-12-10 22:10:55 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 22:10:55 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:10:55 - Graceful shutdown complete
+2024-12-10 22:10:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:10:55 - HikariPool-2 - Shutdown initiated...
+2024-12-10 22:10:55 - HikariPool-2 - Shutdown completed.
+2024-12-10 22:10:55 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 44884 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:10:55 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:10:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:10:55 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-12-10 22:10:55 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:10:55 - Starting service [Tomcat]
+2024-12-10 22:10:55 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:10:55 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:10:55 - Root WebApplicationContext: initialization completed in 330 ms
+2024-12-10 22:10:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:10:55 - HHH000026: Second-level cache disabled
+2024-12-10 22:10:55 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:10:55 - HikariPool-3 - Starting...
+2024-12-10 22:10:55 - HikariPool-3 - Added connection ConnectionID:21 ClientConnectionId: 38ec5119-ddf3-4e9a-a81e-6932dce90b0f
+2024-12-10 22:10:55 - HikariPool-3 - Start completed.
+2024-12-10 22:10:55 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:10:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:10:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:10:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:10:56 - LiveReload server is running on port 35729
+2024-12-10 22:10:56 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:10:56 - Started MicroservicioProductosApplication in 0.85 seconds (process running for 234.954)
+2024-12-10 22:10:56 - Condition evaluation unchanged
+2024-12-10 22:10:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:10:59 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:10:59 - Completed initialization in 1 ms
+2024-12-10 22:11:33 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 45920 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:11:33 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:11:33 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:11:33 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:11:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:11:35 - Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interface.
+2024-12-10 22:11:36 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:11:36 - Starting service [Tomcat]
+2024-12-10 22:11:36 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:11:36 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:11:36 - Root WebApplicationContext: initialization completed in 2292 ms
+2024-12-10 22:11:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:11:36 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:11:36 - HHH000026: Second-level cache disabled
+2024-12-10 22:11:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:11:37 - HikariPool-1 - Starting...
+2024-12-10 22:11:37 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 174c63e0-e351-4cc0-b3f2-bd4e63500fb5
+2024-12-10 22:11:37 - HikariPool-1 - Start completed.
+2024-12-10 22:11:37 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:11:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:11:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:11:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:11:40 - LiveReload server is running on port 35729
+2024-12-10 22:11:40 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:11:40 - Started MicroservicioProductosApplication in 6.813 seconds (process running for 7.39)
+2024-12-10 22:11:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:11:43 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:11:43 - Completed initialization in 1 ms
+2024-12-10 22:14:39 - Restarting due to 12 class path changes (0 additions, 12 deletions, 0 modifications)
+2024-12-10 22:14:39 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:14:39 - Graceful shutdown complete
+2024-12-10 22:14:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:14:39 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:14:39 - HikariPool-1 - Shutdown completed.
+2024-12-10 22:14:39 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 45920 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:14:39 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:14:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:14:39 - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-12-10 22:14:39 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:14:39 - Starting service [Tomcat]
+2024-12-10 22:14:39 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:14:39 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:14:39 - Root WebApplicationContext: initialization completed in 583 ms
+2024-12-10 22:14:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:14:39 - HHH000026: Second-level cache disabled
+2024-12-10 22:14:39 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:14:39 - HikariPool-2 - Starting...
+2024-12-10 22:14:40 - HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: ca7306f9-a5cf-4da2-9eea-019a56e998a1
+2024-12-10 22:14:40 - HikariPool-2 - Start completed.
+2024-12-10 22:14:40 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:14:40 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:14:40 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:14:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:14:40 - LiveReload server is running on port 35729
+2024-12-10 22:14:40 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:14:40 - Started MicroservicioProductosApplication in 1.273 seconds (process running for 187.785)
+2024-12-10 22:14:40 - Condition evaluation unchanged
+2024-12-10 22:14:41 - Restarting due to 12 class path changes (12 additions, 0 deletions, 0 modifications)
+2024-12-10 22:14:41 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:14:41 - Graceful shutdown complete
+2024-12-10 22:14:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:14:41 - HikariPool-2 - Shutdown initiated...
+2024-12-10 22:14:41 - HikariPool-2 - Shutdown completed.
+2024-12-10 22:14:42 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 45920 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:14:42 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:14:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:14:42 - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-12-10 22:14:42 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:14:42 - Starting service [Tomcat]
+2024-12-10 22:14:42 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:14:42 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:14:42 - Root WebApplicationContext: initialization completed in 315 ms
+2024-12-10 22:14:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:14:42 - HHH000026: Second-level cache disabled
+2024-12-10 22:14:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:14:42 - HikariPool-3 - Starting...
+2024-12-10 22:14:42 - HikariPool-3 - Added connection ConnectionID:21 ClientConnectionId: 3dbff862-3bd2-44e7-8aa4-c0edd624bf4d
+2024-12-10 22:14:42 - HikariPool-3 - Start completed.
+2024-12-10 22:14:42 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:14:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:14:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:14:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:14:42 - LiveReload server is running on port 35729
+2024-12-10 22:14:42 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:14:42 - Started MicroservicioProductosApplication in 0.654 seconds (process running for 189.935)
+2024-12-10 22:14:42 - Condition evaluation unchanged
+2024-12-10 22:14:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 22:14:48 - Initializing Servlet 'dispatcherServlet'
+2024-12-10 22:14:48 - Completed initialization in 2 ms
+2024-12-10 22:16:55 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 49384 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:16:55 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:16:55 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:16:55 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:16:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:16:56 - Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2024-12-10 22:16:56 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: com/google/gson/Strictness
+2024-12-10 22:16:56 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-10 22:16:56 - Application run failed
+java.lang.NoClassDefFoundError: com/google/gson/Strictness
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredField(Unknown Source)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.isInnerClass(DefaultBindConstructorProvider.java:144)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getCandidateConstructors(DefaultBindConstructorProvider.java:134)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getConstructors(DefaultBindConstructorProvider.java:103)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider.getBindConstructor(DefaultBindConstructorProvider.java:55)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean.deduceBindMethod(ConfigurationPropertiesBean.java:288)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.createBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:88)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:70)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:64)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:387)
+	at java.base/java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:386)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at brandonnavarro.microservicio_productos.MicroservicioProductosApplication.main(MicroservicioProductosApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Strictness
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 38 common frames omitted
+2024-12-10 22:17:30 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 40648 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:17:30 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:17:30 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:17:30 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:17:31 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:17:31 - Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interface.
+2024-12-10 22:17:31 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: com/google/gson/Strictness
+2024-12-10 22:17:31 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-10 22:17:32 - Application run failed
+java.lang.NoClassDefFoundError: com/google/gson/Strictness
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredField(Unknown Source)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.isInnerClass(DefaultBindConstructorProvider.java:144)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getCandidateConstructors(DefaultBindConstructorProvider.java:134)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getConstructors(DefaultBindConstructorProvider.java:103)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider.getBindConstructor(DefaultBindConstructorProvider.java:55)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean.deduceBindMethod(ConfigurationPropertiesBean.java:288)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.createBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:88)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:70)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:64)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:387)
+	at java.base/java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:386)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at brandonnavarro.microservicio_productos.MicroservicioProductosApplication.main(MicroservicioProductosApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Strictness
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 38 common frames omitted
+2024-12-10 22:19:50 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 46568 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:19:50 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:19:50 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:19:50 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:19:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:19:51 - Finished Spring Data repository scanning in 146 ms. Found 1 JPA repository interface.
+2024-12-10 22:19:51 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: com/google/gson/Strictness
+2024-12-10 22:19:51 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-10 22:19:51 - Application run failed
+java.lang.NoClassDefFoundError: com/google/gson/Strictness
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredField(Unknown Source)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.isInnerClass(DefaultBindConstructorProvider.java:144)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getCandidateConstructors(DefaultBindConstructorProvider.java:134)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getConstructors(DefaultBindConstructorProvider.java:103)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider.getBindConstructor(DefaultBindConstructorProvider.java:55)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean.deduceBindMethod(ConfigurationPropertiesBean.java:288)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.createBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:88)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:70)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:64)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:387)
+	at java.base/java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:386)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at brandonnavarro.microservicio_productos.MicroservicioProductosApplication.main(MicroservicioProductosApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Strictness
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 38 common frames omitted
+2024-12-10 22:20:01 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 46776 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:20:01 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:20:01 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:20:01 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:20:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:20:02 - Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
+2024-12-10 22:20:02 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: com/google/gson/Strictness
+2024-12-10 22:20:02 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-10 22:20:02 - Application run failed
+java.lang.NoClassDefFoundError: com/google/gson/Strictness
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredField(Unknown Source)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.isInnerClass(DefaultBindConstructorProvider.java:144)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getCandidateConstructors(DefaultBindConstructorProvider.java:134)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider$Constructors.getConstructors(DefaultBindConstructorProvider.java:103)
+	at org.springframework.boot.context.properties.bind.DefaultBindConstructorProvider.getBindConstructor(DefaultBindConstructorProvider.java:55)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBean.deduceBindMethod(ConfigurationPropertiesBean.java:288)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.createBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:88)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:70)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:64)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:387)
+	at java.base/java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:386)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at brandonnavarro.microservicio_productos.MicroservicioProductosApplication.main(MicroservicioProductosApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Strictness
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 38 common frames omitted
+2024-12-10 22:20:29 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 44640 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:20:29 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:20:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:20:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:20:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:20:31 - Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interface.
+2024-12-10 22:20:32 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:20:32 - Starting service [Tomcat]
+2024-12-10 22:20:32 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:20:32 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:20:32 - Root WebApplicationContext: initialization completed in 2164 ms
+2024-12-10 22:20:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:20:32 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:20:32 - HHH000026: Second-level cache disabled
+2024-12-10 22:20:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:20:33 - HikariPool-1 - Starting...
+2024-12-10 22:20:33 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1225122d-e3dd-4e10-9874-4023148c59d4
+2024-12-10 22:20:33 - HikariPool-1 - Start completed.
+2024-12-10 22:20:33 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:20:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:20:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:20:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:20:36 - LiveReload server is running on port 35729
+2024-12-10 22:20:36 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:20:36 - Started MicroservicioProductosApplication in 7.071 seconds (process running for 7.614)
+2024-12-10 22:50:55 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 32848 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:50:55 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:50:55 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-10 22:50:55 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-10 22:50:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:50:56 - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-12-10 22:50:57 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:50:57 - Starting service [Tomcat]
+2024-12-10 22:50:57 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:50:57 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:50:57 - Root WebApplicationContext: initialization completed in 2064 ms
+2024-12-10 22:50:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:50:58 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:50:58 - HHH000026: Second-level cache disabled
+2024-12-10 22:50:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:50:58 - HikariPool-1 - Starting...
+2024-12-10 22:50:59 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 5b9b8393-e788-450d-b1b5-1ec4cf20d38a
+2024-12-10 22:50:59 - HikariPool-1 - Start completed.
+2024-12-10 22:50:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:50:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:51:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:51:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:51:01 - LiveReload server is running on port 35729
+2024-12-10 22:51:01 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:51:01 - Started MicroservicioProductosApplication in 6.366 seconds (process running for 6.886)
+2024-12-10 22:51:55 - Restarting due to 6 class path changes (0 additions, 5 deletions, 1 modification)
+2024-12-10 22:51:55 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:51:55 - Graceful shutdown complete
+2024-12-10 22:51:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:51:55 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:51:55 - HikariPool-1 - Shutdown completed.
+2024-12-10 22:51:56 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 32848 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:51:56 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:51:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:51:56 - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-12-10 22:51:56 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:51:56 - Starting service [Tomcat]
+2024-12-10 22:51:56 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:51:56 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:51:56 - Root WebApplicationContext: initialization completed in 603 ms
+2024-12-10 22:51:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:51:56 - HHH000026: Second-level cache disabled
+2024-12-10 22:51:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:51:56 - HikariPool-2 - Starting...
+2024-12-10 22:51:56 - HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: dce26d4e-ee62-4843-b320-a6c4fab2c435
+2024-12-10 22:51:56 - HikariPool-2 - Start completed.
+2024-12-10 22:51:56 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:51:56 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:51:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:51:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:51:57 - LiveReload server is running on port 35729
+2024-12-10 22:51:57 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-10 22:51:57 - Started MicroservicioProductosApplication in 1.2 seconds (process running for 62.633)
+2024-12-10 22:51:57 - Condition evaluation unchanged
+2024-12-10 22:51:58 - Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+2024-12-10 22:51:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 22:51:58 - Graceful shutdown complete
+2024-12-10 22:51:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:51:58 - HikariPool-2 - Shutdown initiated...
+2024-12-10 22:51:58 - HikariPool-2 - Shutdown completed.
+2024-12-10 22:51:58 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 32848 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:51:58 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:51:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:51:59 - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-12-10 22:51:59 - Tomcat initialized with port 8082 (http)
+2024-12-10 22:51:59 - Starting service [Tomcat]
+2024-12-10 22:51:59 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 22:51:59 - Initializing Spring embedded WebApplicationContext
+2024-12-10 22:51:59 - Root WebApplicationContext: initialization completed in 351 ms
+2024-12-10 22:51:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:51:59 - HHH000026: Second-level cache disabled
+2024-12-10 22:51:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:51:59 - HikariPool-3 - Starting...
+2024-12-10 22:51:59 - HikariPool-3 - Added connection ConnectionID:21 ClientConnectionId: 402aaf36-f093-4e14-8e43-e722401abeaf
+2024-12-10 22:51:59 - HikariPool-3 - Start completed.
+2024-12-10 22:51:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:51:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:51:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:51:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:59:27 - Starting MicroservicioProductosApplicationTests using Java 17.0.13 with PID 31188 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 22:59:27 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 22:59:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 22:59:28 - Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interface.
+2024-12-10 22:59:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 22:59:29 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 22:59:29 - HHH000026: Second-level cache disabled
+2024-12-10 22:59:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 22:59:30 - HikariPool-1 - Starting...
+2024-12-10 22:59:30 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 5f0f8ea0-4af5-4467-98e8-026cfa079947
+2024-12-10 22:59:30 - HikariPool-1 - Start completed.
+2024-12-10 22:59:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 22:59:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 22:59:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:59:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 22:59:33 - Started MicroservicioProductosApplicationTests in 5.783 seconds (process running for 6.668)
+2024-12-10 22:59:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 22:59:33 - HikariPool-1 - Shutdown initiated...
+2024-12-10 22:59:33 - HikariPool-1 - Shutdown completed.
+2024-12-10 23:00:31 - Starting MicroservicioProductosApplicationTests using Java 17.0.13 with PID 34384 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 23:00:31 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 23:00:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 23:00:32 - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interface.
+2024-12-10 23:00:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 23:00:33 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 23:00:33 - HHH000026: Second-level cache disabled
+2024-12-10 23:00:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 23:00:33 - HikariPool-1 - Starting...
+2024-12-10 23:00:34 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 2ab00f5d-be69-4806-85ab-68cba46d0641
+2024-12-10 23:00:34 - HikariPool-1 - Start completed.
+2024-12-10 23:00:34 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 23:00:35 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 23:00:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 23:00:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 23:00:36 - Started MicroservicioProductosApplicationTests in 5.402 seconds (process running for 6.392)
+2024-12-10 23:00:37 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 23:00:37 - HikariPool-1 - Shutdown initiated...
+2024-12-10 23:00:37 - HikariPool-1 - Shutdown completed.
+2024-12-10 23:06:15 - Starting MicroservicioProductosApplicationTests using Java 17.0.13 with PID 47132 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 23:06:15 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 23:06:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 23:06:16 - Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
+2024-12-10 23:06:17 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 23:06:18 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 23:06:18 - HHH000026: Second-level cache disabled
+2024-12-10 23:06:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 23:06:18 - HikariPool-1 - Starting...
+2024-12-10 23:06:19 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a3b66a70-5e5b-46ca-bffb-11b2f8c6d8f7
+2024-12-10 23:06:19 - HikariPool-1 - Start completed.
+2024-12-10 23:06:19 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 23:06:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 23:06:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 23:06:20 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productosController' defined in file [D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes\brandonnavarro\microservicio_productos\controller\ProductosController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'brandonnavarro.microservicio_productos.mapper.ProductosMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-12-10 23:06:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 23:06:20 - HikariPool-1 - Shutdown initiated...
+2024-12-10 23:06:20 - HikariPool-1 - Shutdown completed.
+2024-12-10 23:06:20 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-10 23:06:20 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in brandonnavarro.microservicio_productos.controller.ProductosController required a bean of type 'brandonnavarro.microservicio_productos.mapper.ProductosMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'brandonnavarro.microservicio_productos.mapper.ProductosMapper' in your configuration.
+
+2024-12-10 23:06:20 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [brandonnavarro.microservicio_productos.MicroservicioProductosApplicationTests@7fda84cf]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1e834a5b testClass = brandonnavarro.microservicio_productos.MicroservicioProductosApplicationTests, locations = [], classes = [brandonnavarro.microservicio_productos.MicroservicioProductosApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@517d4a0d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@149dd36b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5dd1c9f2, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@17aad511, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@12ed9db6, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@55322aab, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@55dfcc6, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@be01db87], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:160)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$12(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEach(Unknown Source)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$7(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Unknown Source)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$6(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$1(TestMethodTestDescriptor.java:105)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:104)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productosController' defined in file [D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes\brandonnavarro\microservicio_productos\controller\ProductosController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'brandonnavarro.microservicio_productos.mapper.ProductosMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1371)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1208)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 75 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'brandonnavarro.microservicio_productos.mapper.ProductosMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2139)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1589)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 101 common frames omitted
+2024-12-10 23:06:58 - Starting MicroservicioProductosApplicationTests using Java 17.0.13 with PID 36556 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-10 23:06:58 - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 23:06:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 23:06:59 - Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
+2024-12-10 23:07:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 23:07:00 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-10 23:07:00 - HHH000026: Second-level cache disabled
+2024-12-10 23:07:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-10 23:07:00 - HikariPool-1 - Starting...
+2024-12-10 23:07:00 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: ec1fb264-10ad-42bc-bef7-619450f1eff3
+2024-12-10 23:07:00 - HikariPool-1 - Start completed.
+2024-12-10 23:07:00 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-10 23:07:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-10 23:07:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 23:07:02 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 23:07:03 - Started MicroservicioProductosApplicationTests in 5.408 seconds (process running for 6.315)
+2024-12-10 23:07:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 23:07:03 - HikariPool-1 - Shutdown initiated...
+2024-12-10 23:07:03 - HikariPool-1 - Shutdown completed.
