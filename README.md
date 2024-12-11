@@ -38,11 +38,16 @@ Este proyecto implementa un sistema basado en microservicios para gestionar info
    cd tu-repo
 2. Configura las variables de entorno para conectar a SQL Server:
   Archivo application.properties.
-3. Construye los proyectos
+
+4. Construye los proyectos
+   ```bash
    mvn clean install
-4. Levanta los servicios con Docker Compose:
+   
+5. Levanta los servicios con Docker Compose:
+   ```bash
    docker-compose up --build
-5. Accede a los servicios:
+   
+7. Accede a los servicios:
 Microservicio de Clientes: http://localhost:8081/swagger-ui/index.html
 Microservicio de Productos Financieros: http://localhost:8082/swagger-ui/index.html
 BFF: http://localhost:8080/swagger-ui/index.html
