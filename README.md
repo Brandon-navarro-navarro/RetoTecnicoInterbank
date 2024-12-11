@@ -100,4 +100,4 @@ mvn test
 ```
 
 ## Utilitarios
-Dentro de la carpeta Utils del proyecto Microservicio-cliente se encuentra el codigo necesrio para encritar un texto el cual sera usado como codigo unico del cliente.
+Dentro de la carpeta Utils del proyecto Microservicio-cliente se encuentra el codigo necesrio para encriptar un texto el cual sera usado como codigo unico del cliente, ademas tambien el metodo que crea una llave secreta el cual se usara para desencriptar el texto (esta llave debe almacenarse en archivo "application.properties" en la propiedad "encryption.secretKey").
