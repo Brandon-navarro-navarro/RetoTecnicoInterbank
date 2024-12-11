@@ -1,5 +1,7 @@
 package brandonnavarro.servicio_bff.controller;
 
+import java.util.UUID;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +23,7 @@ public class BffController {
 
     @GetMapping("/informacion-cliente/{codigoUnico}")
     public Mono<ClienteDTO> getInformacionCliente(@PathVariable String codigoUnico) {
+       
         return bffService.getInformacionCliente(codigoUnico);
     }
 }

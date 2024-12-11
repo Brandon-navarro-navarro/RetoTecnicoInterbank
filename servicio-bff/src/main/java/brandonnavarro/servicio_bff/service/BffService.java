@@ -2,6 +2,7 @@ package brandonnavarro.servicio_bff.service;
 
 import java.util.UUID;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -21,17 +22,24 @@ public class BffService {
         this.webClient = webClientBuilder.build();
     }
 
+    @Value("${microservices.clients-serviceDev}") String UrlBaseClienteDev;
+    @Value("${microservices.products-serviceDev}") String UrlBaseProductosDev;
+    @Value("${microservices.clients-serviceProd}") String UrlBaseClienteProd;
+    @Value("${microservices.products-serviceProd}") String UrlBaseProductosProd;
+
     public Mono<ClienteDTO> getInformacionCliente(String codigoUnico) {
         String trackingId = UUID.randomUUID().toString();
 
         return webClient.get()
-            // .uri("http://localhost:8081/api/cliente/" + codigoUnico)
-            .uri("http://microservicio-cliente:8081/api/cliente/" + codigoUnico)
+            .uri( UrlBaseClienteDev + "/api/cliente/" + codigoUnico)
+            // .uri(UrlBaseClienteProd + "/api/cliente/" + codigoUnico)
+            .header("Tracking-ID", trackingId)
             .retrieve()
             .bodyToMono(ClienteDTO.class)
             .flatMap(client -> webClient.get()
-                // .uri("http://localhost:8082/api/productos/" + codigoUnico)
-                .uri("http://microservicio-productos:8082/api/productos/" + codigoUnico)
+                .uri( UrlBaseProductosDev + "/api/productos/" + codigoUnico)
+                // .uri(UrlBaseProductosProd + "/api/productos/" + codigoUnico)
+                .header("Tracking-ID", trackingId)
                 .retrieve()
                 .bodyToFlux(ProductosDTO.class)
                 .collectList()

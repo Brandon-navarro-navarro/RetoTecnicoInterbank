@@ -12,6 +12,7 @@ import reactor.core.publisher.Flux;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
 
 
 @RestController
@@ -23,7 +24,8 @@ public class ProductosController {
     private final ProductosMapper productosMapper;
 
     @GetMapping("/{codigoUnico}")
-    public Flux<ProductosDTO> getProductossByCodigoUnico(@PathVariable String codigoUnico) {
+    public Flux<ProductosDTO> getProductossByCodigoUnico(@PathVariable String codigoUnico, @RequestHeader("Tracking-ID") String trackingId) {
+        System.out.println("Tracking ID: " + trackingId);  
         return productosService.getProductosCodigoUnico(codigoUnico)
                 .map(productosMapper::toDTO);
     }
