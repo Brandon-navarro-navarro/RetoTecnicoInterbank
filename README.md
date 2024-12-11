@@ -48,6 +48,6 @@ Este proyecto implementa un sistema basado en microservicios para gestionar info
    docker-compose up --build
    
 7. Accede a los servicios:
-Microservicio de Clientes: http://localhost:8081/swagger-ui/index.html
-Microservicio de Productos Financieros: http://localhost:8082/swagger-ui/index.html
-BFF: http://localhost:8080/swagger-ui/index.html
+- Microservicio de Clientes: http://localhost:8081/swagger-ui/index.html
+- Microservicio de Productos Financieros: http://localhost:8082/swagger-ui/index.html
+- BFF: http://localhost:8080/swagger-ui/index.html
