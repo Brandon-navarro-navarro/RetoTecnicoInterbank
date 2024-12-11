@@ -98,3 +98,6 @@ Las pruebas unitarias están implementadas usando JUnit 5. Puedes ejecutar las p
 ```bash
 mvn test
 ```
+
+## Utilitarios
+Dentro de la carpeta Utils del proyecto Microservicio-cliente se encuentra el codigo necesrio para encritar un texto el cual sera usado como codigo unico del cliente.
