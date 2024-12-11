@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "02bbf52c-1bae-42cc-bcd0-cbeab34e0761",
+		"name": "TataConsulting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25360959"
+	},
+	"item": [
+		{
+			"name": "MicroServicio Cliente",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Tracking-ID",
+						"value": "dasdasdasdasd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/api/cliente/b05e201c42e9f06dcee180e1ffcc2ce5e09c9bb1be9e67f9ac74fe6ecd00fbf7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"cliente",
+						"b05e201c42e9f06dcee180e1ffcc2ce5e09c9bb1be9e67f9ac74fe6ecd00fbf7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MicroServicio Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/productos/b05e201c42e9f06dcee180e1ffcc2ce5e09c9bb1be9e67f9ac74fe6ecd00fbf7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"productos",
+						"b05e201c42e9f06dcee180e1ffcc2ce5e09c9bb1be9e67f9ac74fe6ecd00fbf7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bff",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/bff/informacion-cliente/b05e201c42e9f06dcee180e1ffcc2ce5e09c9bb1be9e67f9ac74fe6ecd00fbf7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"bff",
+						"informacion-cliente",
+						"b05e201c42e9f06dcee180e1ffcc2ce5e09c9bb1be9e67f9ac74fe6ecd00fbf7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
