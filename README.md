@@ -38,7 +38,7 @@ Este proyecto implementa un sistema basado en microservicios para gestionar info
 2. Configura las variables de entorno para conectar a SQL Server:
   Archivo application.properties.
 
-4. Construye los proyectos
+4. Construye los proyectos (Esto recordar hacerlo dentro de la carpeta de cada proyecto)
    ```bash
    mvn clean install
    
