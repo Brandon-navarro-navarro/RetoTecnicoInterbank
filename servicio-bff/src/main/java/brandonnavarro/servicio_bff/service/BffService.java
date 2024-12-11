@@ -8,15 +8,20 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 import brandonnavarro.servicio_bff.dto.ClienteDTO;
 import brandonnavarro.servicio_bff.dto.ProductosDTO;
+import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
+
+@Slf4j
 @Service
 public class BffService {
-    private static final Logger log = LoggerFactory.getLogger(BffService.class);  // Definir el Logger
-
+   
     private final WebClient webClient;
+    private String trackingIdAop = "";
+
+    public String getTrackingId() {
+        return trackingIdAop;
+    }
 
     public BffService(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.build();
@@ -29,16 +34,17 @@ public class BffService {
 
     public Mono<ClienteDTO> getInformacionCliente(String codigoUnico) {
         String trackingId = UUID.randomUUID().toString();
+        this.trackingIdAop = trackingId;
 
         return webClient.get()
-            .uri( UrlBaseClienteDev + "/api/cliente/" + codigoUnico)
-            // .uri(UrlBaseClienteProd + "/api/cliente/" + codigoUnico)
+            // .uri( UrlBaseClienteDev + "/api/cliente/" + codigoUnico)
+            .uri(UrlBaseClienteProd + "/api/cliente/" + codigoUnico)
             .header("Tracking-ID", trackingId)
             .retrieve()
             .bodyToMono(ClienteDTO.class)
             .flatMap(client -> webClient.get()
-                .uri( UrlBaseProductosDev + "/api/productos/" + codigoUnico)
-                // .uri(UrlBaseProductosProd + "/api/productos/" + codigoUnico)
+                // .uri( UrlBaseProductosDev + "/api/productos/" + codigoUnico)
+                .uri(UrlBaseProductosProd + "/api/productos/" + codigoUnico)
                 .header("Tracking-ID", trackingId)
                 .retrieve()
                 .bodyToFlux(ProductosDTO.class)

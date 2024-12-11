@@ -39,7 +39,7 @@ public class ProductosControllerTest {
     
 
         String codigoUnico = "codigo_encriptado";
-
+        String trackingId = "tracking123";
         Productos productoMock = new Productos(
             1, 
             "Cuenta", 
@@ -48,24 +48,25 @@ public class ProductosControllerTest {
             "codigo_encriptado"
         );
 
-        // Creación de un DTO de producto de prueba
+
         ProductosDTO productoDTO = new ProductosDTO(
             "Cuenta", 
             "Cuenta Corriente", 
             326465.36
         );
        
-        // Configuración del mock del servicio
+    
         Mockito.when(productosService.getProductosCodigoUnico(codigoUnico))
                .thenReturn(Flux.just(productoMock));
 
-        // Configuración del mock del mapper
+  
         Mockito.when(productosMapper.toDTO(productoMock))
                .thenReturn(productoDTO);
 
          try {
             webTestClient.get()
                      .uri("/api/productos/{codigoUnico}", codigoUnico)
+                     .header("Tracking-ID", trackingId) 
                      .exchange()
                      .expectStatus().isOk()
                      .expectBodyList(ProductosDTO.class)
@@ -81,7 +82,7 @@ public class ProductosControllerTest {
             System.out.println("Prueba pasada: ProductosController devuelve datos correctamente.");
          }catch (AssertionError e) {
             System.err.println("Prueba fallida: " + e.getMessage());
-            throw e; // Re-lanzamos el error para que la prueba se registre como fallida.
+            throw e; 
         }
     }
 }

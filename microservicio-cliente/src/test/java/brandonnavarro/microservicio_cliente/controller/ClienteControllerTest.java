@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
@@ -28,6 +27,7 @@ public class ClienteControllerTest {
     
 
         String codigoUnico = "codigo_encriptado";
+        String trackingId = "tracking123";
         Cliente clienteMock = new Cliente(
             1, 
             "Juan", 
@@ -44,6 +44,7 @@ public class ClienteControllerTest {
          try {
             webTestClient.get()
                      .uri("/api/cliente/{codigoUnico}", codigoUnico)
+                     .header("Tracking-ID", trackingId) 
                      .exchange()
                      .expectStatus().isOk()
                      .expectBody(Cliente.class)
@@ -58,7 +59,7 @@ public class ClienteControllerTest {
             System.out.println("Prueba pasada: ClienteController devuelve datos correctamente.");
          }catch (AssertionError e) {
             System.err.println("Prueba fallida: " + e.getMessage());
-            throw e; // Re-lanzamos el error para que la prueba se registre como fallida.
+            throw e; 
         }
     }
 }

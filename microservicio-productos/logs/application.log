@@ -1500,3 +1500,227 @@ No content
 2024-12-11 12:56:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-12-11 12:56:26 - Initializing Servlet 'dispatcherServlet'
 2024-12-11 12:56:26 - Completed initialization in 1 ms
+2024-12-11 13:18:22 - Starting ProductosControllerTest using Java 17.0.13 with PID 34664 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 13:18:22 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 13:18:26 - Started ProductosControllerTest in 3.949 seconds (process running for 5.508)
+2024-12-11 13:18:26 - Request details for assertion failure:
+
+> GET /api/productos/codigo_encriptado
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 400 BAD_REQUEST Bad Request
+< Content-Type: [application/json]
+< Content-Length: [145]
+
+{"timestamp":"2024-12-11T18:18:26.550+00:00","path":"/api/productos/codigo_encriptado","status":400,"error":"Bad Request","requestId":"1043cb8d"}
+
+2024-12-11 13:23:28 - Starting ProductosControllerTest using Java 17.0.13 with PID 37424 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 13:23:28 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 13:23:31 - Started ProductosControllerTest in 3.064 seconds (process running for 3.999)
+2024-12-11 14:33:43 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 38172 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 14:33:43 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:33:43 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 14:33:43 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 14:33:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 14:33:45 - Finished Spring Data repository scanning in 206 ms. Found 1 JPA repository interface.
+2024-12-11 14:33:47 - Tomcat initialized with port 8082 (http)
+2024-12-11 14:33:47 - Starting service [Tomcat]
+2024-12-11 14:33:47 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:33:47 - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:33:47 - Root WebApplicationContext: initialization completed in 3868 ms
+2024-12-11 14:33:48 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 14:33:48 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-11 14:33:48 - HHH000026: Second-level cache disabled
+2024-12-11 14:33:48 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 14:33:48 - HikariPool-1 - Starting...
+2024-12-11 14:33:49 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e20f8618-7b2b-49c2-a936-26c4d7eb55a9
+2024-12-11 14:33:49 - HikariPool-1 - Start completed.
+2024-12-11 14:33:49 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-11 14:33:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 14:33:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:33:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 14:33:53 - Unable to start LiveReload server
+2024-12-11 14:33:53 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-11 14:33:53 - Started MicroservicioProductosApplication in 10.525 seconds (process running for 11.145)
+2024-12-11 14:34:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 14:34:22 - Initializing Servlet 'dispatcherServlet'
+2024-12-11 14:34:22 - Completed initialization in 1 ms
+2024-12-11 14:34:22 - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'Tracking-ID' for method parameter type String is not present]
+2024-12-11 14:34:55 - El Tracking-ID de la solicitud es: dasdasdasdasd
+2024-12-11 14:36:36 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 14060 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 14:36:36 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:36:36 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 14:36:36 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 14:36:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 14:36:38 - Finished Spring Data repository scanning in 211 ms. Found 1 JPA repository interface.
+2024-12-11 14:36:39 - Tomcat initialized with port 8082 (http)
+2024-12-11 14:36:39 - Starting service [Tomcat]
+2024-12-11 14:36:39 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:36:39 - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:36:39 - Root WebApplicationContext: initialization completed in 3300 ms
+2024-12-11 14:36:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 14:36:40 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-11 14:36:40 - HHH000026: Second-level cache disabled
+2024-12-11 14:36:41 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 14:36:41 - HikariPool-1 - Starting...
+2024-12-11 14:36:41 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c56c0c0b-c33a-4800-bfb7-5ee9a6a293ee
+2024-12-11 14:36:41 - HikariPool-1 - Start completed.
+2024-12-11 14:36:41 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-11 14:36:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 14:36:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:36:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 14:36:46 - Unable to start LiveReload server
+2024-12-11 14:36:46 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-11 14:36:46 - Started MicroservicioProductosApplication in 11.051 seconds (process running for 11.692)
+2024-12-11 14:36:51 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 14:36:51 - Initializing Servlet 'dispatcherServlet'
+2024-12-11 14:36:51 - Completed initialization in 1 ms
+2024-12-11 14:36:51 - El Tracking-ID de la solicitud es: dasdasdasdasd
+2024-12-11 14:36:56 - El Tracking-ID de la solicitud es: 6157ad6a-b0d3-4d83-8632-61666f8eba56
+2024-12-11 14:37:22 - El Tracking-ID de la solicitud es: de8bc368-891b-486e-936c-3283542803a3
+2024-12-11 14:42:02 - El Tracking-ID de la solicitud es: 62431119-6ba6-40a2-9011-d9e1e1803f81
+2024-12-11 14:52:26 - Restarting due to 9 class path changes (0 additions, 9 deletions, 0 modifications)
+2024-12-11 14:52:26 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 14:52:26 - Graceful shutdown complete
+2024-12-11 14:52:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:52:26 - HikariPool-1 - Shutdown initiated...
+2024-12-11 14:52:26 - HikariPool-1 - Shutdown completed.
+2024-12-11 14:52:27 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 14060 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 14:52:27 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:52:27 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 14:52:27 - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-12-11 14:52:27 - Tomcat initialized with port 8082 (http)
+2024-12-11 14:52:27 - Starting service [Tomcat]
+2024-12-11 14:52:27 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:52:27 - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:52:27 - Root WebApplicationContext: initialization completed in 535 ms
+2024-12-11 14:52:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 14:52:27 - HHH000026: Second-level cache disabled
+2024-12-11 14:52:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 14:52:27 - HikariPool-2 - Starting...
+2024-12-11 14:52:27 - HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: 77e2918f-c522-4d59-a50f-54eda87b79a5
+2024-12-11 14:52:27 - HikariPool-2 - Start completed.
+2024-12-11 14:52:27 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-11 14:52:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 14:52:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:52:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 14:52:28 - Unable to start LiveReload server
+2024-12-11 14:52:28 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-11 14:52:28 - Started MicroservicioProductosApplication in 1.502 seconds (process running for 953.316)
+2024-12-11 14:52:28 - Condition evaluation unchanged
+2024-12-11 14:52:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 14:52:29 - Initializing Servlet 'dispatcherServlet'
+2024-12-11 14:52:29 - Completed initialization in 0 ms
+2024-12-11 14:52:29 - Restarting due to 10 class path changes (9 additions, 0 deletions, 1 modification)
+2024-12-11 14:52:29 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 14:52:29 - Graceful shutdown complete
+2024-12-11 14:52:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:52:30 - HikariPool-2 - Shutdown initiated...
+2024-12-11 14:52:30 - HikariPool-2 - Shutdown completed.
+2024-12-11 14:52:30 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 14060 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 14:52:30 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:52:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 14:52:30 - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-12-11 14:52:30 - Tomcat initialized with port 8082 (http)
+2024-12-11 14:52:30 - Starting service [Tomcat]
+2024-12-11 14:52:30 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:52:30 - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:52:30 - Root WebApplicationContext: initialization completed in 458 ms
+2024-12-11 14:52:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 14:52:30 - HHH000026: Second-level cache disabled
+2024-12-11 14:52:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 14:52:30 - HikariPool-3 - Starting...
+2024-12-11 14:52:30 - HikariPool-3 - Added connection ConnectionID:21 ClientConnectionId: b5b33004-3d30-48d5-81a9-17e2490b1dbe
+2024-12-11 14:52:30 - HikariPool-3 - Start completed.
+2024-12-11 14:52:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-11 14:52:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 14:52:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:52:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 14:52:31 - Unable to start LiveReload server
+2024-12-11 14:52:31 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-11 14:52:31 - Started MicroservicioProductosApplication in 1.356 seconds (process running for 956.222)
+2024-12-11 14:52:31 - Condition evaluation unchanged
+2024-12-11 14:52:32 - Starting ProductosControllerTest using Java 17.0.13 with PID 14288 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 14:52:32 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:52:35 - Started ProductosControllerTest in 3.256 seconds (process running for 4.322)
+2024-12-11 14:52:51 - Restarting due to 10 class path changes (0 additions, 0 deletions, 10 modifications)
+2024-12-11 14:52:51 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 14:52:51 - Graceful shutdown complete
+2024-12-11 14:52:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:52:51 - HikariPool-3 - Shutdown initiated...
+2024-12-11 14:52:51 - HikariPool-3 - Shutdown completed.
+2024-12-11 14:52:51 - Starting MicroservicioProductosApplication using Java 17.0.13 with PID 14060 (D:\PROYECTOS\TataConsulting\microservicio-productos\target\classes started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 14:52:51 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 14:52:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 14:52:51 - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-12-11 14:52:51 - Tomcat initialized with port 8082 (http)
+2024-12-11 14:52:51 - Starting service [Tomcat]
+2024-12-11 14:52:51 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 14:52:51 - Initializing Spring embedded WebApplicationContext
+2024-12-11 14:52:51 - Root WebApplicationContext: initialization completed in 273 ms
+2024-12-11 14:52:51 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 14:52:51 - HHH000026: Second-level cache disabled
+2024-12-11 14:52:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 14:52:51 - HikariPool-4 - Starting...
+2024-12-11 14:52:51 - HikariPool-4 - Added connection ConnectionID:31 ClientConnectionId: b62e3f87-10f3-4433-b869-7a9efebeaa3f
+2024-12-11 14:52:51 - HikariPool-4 - Start completed.
+2024-12-11 14:52:51 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-11 14:52:51 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 14:52:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 14:52:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11 14:52:52 - Unable to start LiveReload server
+2024-12-11 14:52:52 - Tomcat started on port 8082 (http) with context path '/'
+2024-12-11 14:52:52 - Started MicroservicioProductosApplication in 0.854 seconds (process running for 976.934)
+2024-12-11 14:52:52 - Condition evaluation unchanged
+2024-12-11 14:53:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 14:53:01 - Initializing Servlet 'dispatcherServlet'
+2024-12-11 14:53:01 - Completed initialization in 0 ms
+2024-12-11 14:53:01 - El Tracking-ID de la solicitud es: 39b35c4b-b95c-46e3-bc61-c177b9972e9e
+2024-12-11 14:53:28 - El Tracking-ID de la solicitud es: 33a55337-0ed4-4e0f-9028-6f7a4d931a1c
+2024-12-11 14:53:49 - El Tracking-ID de la solicitud es: ce1d5a51-cd8a-46f3-99f2-abe6f62993fb
+2024-12-11 14:54:16 - El Tracking-ID de la solicitud es: 05508aa8-1723-4ba3-9dd5-10f3c1028eb1
+2024-12-11 14:54:45 - El Tracking-ID de la solicitud es: 2f489643-e59a-4ae2-8999-1214529cd040
+2024-12-11 15:03:48 - El Tracking-ID de la solicitud es: b41a9dea-9146-44b9-92a6-6fa19b0bc2e4
+2024-12-11 15:05:54 - Starting ProductosControllerTest using Java 17.0.13 with PID 8180 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 15:05:54 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 15:05:57 - Started ProductosControllerTest in 3.278 seconds (process running for 4.213)
+2024-12-11 15:09:45 - Starting ProductosControllerTest using Java 17.0.13 with PID 35880 (started by KREYSHIN in D:\PROYECTOS\TataConsulting\microservicio-productos)
+2024-12-11 15:09:45 - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 15:09:48 - Started ProductosControllerTest in 3.289 seconds (process running for 4.324)
