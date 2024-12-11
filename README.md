@@ -1,3 +1,6 @@
+
+![InterbankReto](https://github.com/user-attachments/assets/9c22df73-1ea9-4772-9bdd-4cced8fd88f7)
+
 # Proyecto: Sistema de Gestión de Clientes y Productos Financieros
 
 
