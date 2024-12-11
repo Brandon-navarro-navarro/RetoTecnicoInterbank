@@ -57,7 +57,7 @@ El BFF expone una API para obtener información del cliente y productos asociado
   ```http
   GET /bff/informacion-cliente/{codigoUnico}
   ```
-### Productos
+### Respuesta
 ```Json
 {
     "nombres": "John",
@@ -73,3 +73,28 @@ El BFF expone una API para obtener información del cliente y productos asociado
     ]
 }
 ````
+
+## Microservicio de Clientes
+### Controlador de Clientes
+  - Clase: ClienteController.java
+  - Expone la API para acceder a los datos de clientes.
+
+### Servicio de Clientes
+- Clase: ClienteService.java
+- Lógica de negocio para manejar la información de los clientes.
+
+## Microservicio de Productos
+### Controlador de Productos
+  - Clase: ProductosController.java
+  - Expone la API para acceder a los productos.
+
+### Servicio de Productos
+ - Clase: ProductosService.java
+ - Lógica de negocio para manejar la información de los productos.
+
+## Pruebas Unitarias
+Las pruebas unitarias están implementadas usando JUnit 5. Puedes ejecutar las pruebas usando el siguiente comando:
+
+```bash
+mvn test
+```
