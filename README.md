@@ -22,6 +22,7 @@ Este proyecto implementa un sistema basado en microservicios para gestionar info
 
 ## Arquitectura
   El sistema sigue una arquitectura basada en microservicios:
+![Untitled-2023-06-01-2253](https://github.com/user-attachments/assets/b314f45b-4526-4fd6-b964-fbbdc2b6af6e)
 
 
 ## Despliegue
