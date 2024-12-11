@@ -11,14 +11,13 @@ Este proyecto implementa un sistema basado en microservicios para gestionar info
 ## Tecnologias Utilizadas
 - **Lenguaje:** Java 17
 - **Frameworks:**
-  - Spring Boot (WebFlux, Security, Data, AOP)
+  - Spring Boot (WebFlux, Data, AOP)
   - Springdoc OpenAPI (Swagger)
 - **Base de Datos:** SQL Server
 - **Contenerización:** Docker
 - **Mapeo de Objetos:** MapStruct
 - **Gestión de Dependencias:** Maven
-- **Autenticación:** OAuth 2.0
-- **Pruebas Unitarias:** JUnit 5
+- **Pruebas Unitarias:** JUnit 5 y Mockito
 - **Logging:** Logback
 
 ## Arquitectura
@@ -47,7 +46,30 @@ Este proyecto implementa un sistema basado en microservicios para gestionar info
    ```bash
    docker-compose up --build
    
-7. Accede a los servicios:
-- Microservicio de Clientes: http://localhost:8081/swagger-ui/index.html
-- Microservicio de Productos Financieros: http://localhost:8082/swagger-ui/index.html
-- BFF: http://localhost:8080/swagger-ui/index.html
+## Uso del BFF
+El BFF expone una API para obtener información del cliente y productos asociados.
+
+- Obtener Información del Cliente
+- Endpoint: /bff/informacion-cliente/{codigoUnico}
+- Método: GET
+
+### Ejemplo Solicitud
+  ```http
+  GET /bff/informacion-cliente/{codigoUnico}
+  ```
+### Productos
+```Json
+{
+    "nombres": "John",
+    "apellidos": "Doe",
+    "tipoDocumento": "DNI",
+    "numeroDocumento": "12345678",
+    "productosFinancieros": [
+        {
+            "id": 1,
+            "nombre": "Producto A",
+            "tipo": "Financiero"
+        }
+    ]
+}
+````
